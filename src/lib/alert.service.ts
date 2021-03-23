@@ -9,7 +9,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
 
 
 @Injectable({ providedIn: 'root' })
-export class AlertService {
+export class GdevAlertService {
 
     messageAlert$ = new Subject<MessageAlertModel>()
     requestAlert$ = new Subject<MessageAlertModel>()
